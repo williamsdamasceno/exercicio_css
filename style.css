@@ -1,22 +1,33 @@
-        body { color: rgb(35, 83, 83);
-        font-family: Arial, sans-serif;
+        * {box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+
+    }
+    h1 {
+        color: rgb(86, 12, 12);
+    }
+
+        body { color: rgb(187, 36, 36);
+        font-family: Arial, Helvetica, sans-serif ;
         line-height: 1.8;
         margin: 0;
         padding: 16px;
     }
-    h1 {color: #050404
-        }
+    h1 {color: #080808
+        padding: 0;
+    }
     header {
-        background-color: #310980;
-        color: #2c2424;
+        background-color: rgba(1, 1, 24, 0.71);
+        color: #5c1e1e;
         text-align: center;
         padding: 0;
     }
     nav {
-        background-color: #000000;
-        color: rgb(35, 83, 83);
+        background-color: #461111;
+        color: rgba(106, 47, 32, 0.858);
         text-align: center;
         padding: 5px;
+        margin: 0 auto;
     }
     nav a {
         color: #fff;
@@ -24,7 +35,7 @@
         padding: 10px;
     }
     nav a:hover {
-        background-color: rgb(35, 83, 83);
+        background-color: rgb(92, 49, 33);
     }
     main {
         padding: 20px;
@@ -32,11 +43,94 @@
     article {
         margin-bottom: 20px;
         padding: 10px;
-        border: 2px solid #050404;
+        border: 2px solid rgba(1, 1, 24, 0.71);
     }
-    h2 {
-        margin-top: 0;
+    section h2 {
+        margin-bottom: 16px;
     }
     p {
         margin-top: 1;
+    }
+    .container {
+        margin: 0 auto;
+        width: 1366px;
+
+    }
+    section .articles {
+        display: flex;
+    }
+    .articles {
+        height: 1080px;
+        display: flex;
+    }
+    .articles article {
+        background-color: #461111;
+        width: 30%;
+    }
+    .extra-content {
+        display: none;
+    }
+    .read-more1 {
+        background-color: rgb(92, 49, 33);
+        color: #fff;
+        border: #000000;
+        padding: 6px 6px;
+        border-radius: 6px;
+        cursor: pointer;
+        bottom: 0;
+        right: 0;
+    }
+    .read-more2 {
+        background-color: rgb(204, 77, 31);
+        color: #fff;
+        border: #000000;
+        padding: 6px 6px;
+        border-radius: 6px;
+        cursor: pointer;
+        bottom: 0;
+        right: 0;
+    }
+    .read-more3 {
+        background-color: rgb(44, 33, 92);
+        color: #fff;
+        border: #000000;
+        padding: 6px 6px;
+        border-radius: 6px;
+        cursor: pointer;
+        bottom: 0;
+        right: 0;
+    }
+    .article .show-extra .extra-content {
+        display: inline;
+    }
+    .extra-content {
+        display: none;
+    }
+    .topic {
+        background-color: rgba(45, 66, 46, 0.497);
+        padding: 2px 6px;
+        border-radius: 4px;
+    }
+    .article {
+        margin: 0 ;
+        padding: 150px;
+        border: 1px solid #ddd;
+        background-color: #f2f2f2; /* Adicionamos a cor de fundo cinza ao elemento article */
+        display: flex;
+        flex-direction: column;
+    }
+    .Series {
+        background-color: #461111;
+    }
+    .Filmes {
+        background-color: #251414;
+    }
+    .documentarios {
+background-color: rgb(13, 56, 91);
+    }
+    .Nacionais {
+        background-color: #0a340b;
+    }
+    .Curtas {
+        background-color: #ddd;
     }
